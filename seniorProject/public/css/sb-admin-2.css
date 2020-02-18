@@ -69,9 +69,15 @@ body {
   background-color: #fff;
 }
 
+.tableauPlaceholder {
+ text-align: center; 
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
+
+
 
 hr {
   box-sizing: content-box;
@@ -1264,7 +1270,7 @@ pre code {
   }
   .col-xl-8 {
     flex: 0 0 66.66667%;
-    max-width: 66.66667%;
+    max-width: 100%;
   }
   .col-xl-9 {
     flex: 0 0 75%;
